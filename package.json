@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0-development",
+  "author": "suin",
+  "bugs": {
+    "url": "https://github.com/suin/__repo__/issues"
+  },
+  "description": "",
+  "engines": {
+    "node": ">=16.9"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "*.{js,ts,map}",
+    "**/*.{js,ts,map}",
+    "!*.{test,spec}.*",
+    "!testUtils.*"
+  ],
+  "homepage": "https://github.com/suin/__repo__#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suin/__repo__.git"
+  },
+  "type": "module",
+  "name": "@suin/semantic-release-test",
+  "packageManager": "yarn@3.1.0"
+}
