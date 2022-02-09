@@ -2,7 +2,7 @@
   "version": "0.0.0-development",
   "author": "suin",
   "bugs": {
-    "url": "https://github.com/suin/__repo__/issues"
+    "url": "https://github.com/suin/semantic-release-test/issues"
   },
   "description": "",
   "engines": {
@@ -20,16 +20,19 @@
     "!*.{test,spec}.*",
     "!testUtils.*"
   ],
-  "homepage": "https://github.com/suin/__repo__#readme",
+  "homepage": "https://github.com/suin/semantic-release-test#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suin/__repo__.git"
+    "url": "https://github.com/suin/semantic-release-test.git"
   },
   "type": "module",
   "name": "@suin/semantic-release-test",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "devDependencies": {
+    "@suin/semantic-release-yarn": "link:../semantic-release-yarn"
+  }
 }
