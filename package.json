@@ -29,10 +29,11 @@
     "type": "git",
     "url": "https://github.com/suin/semantic-release-test.git"
   },
-  "type": "module",
+  "type": "commonjs",
   "name": "@suin/semantic-release-test",
   "packageManager": "yarn@3.1.0",
   "devDependencies": {
-    "@suin/semantic-release-yarn": "link:../semantic-release-yarn"
+    "@suin/semantic-release-yarn": "link:../semantic-release-yarn",
+    "semantic-release": "^19.0.2"
   }
 }
